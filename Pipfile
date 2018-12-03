@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+djangorestframework = "==3.6.4"
+google-api-python-client = "==1.6.4"
+httplib2 = "==0.10.3"
+jsonpickle = "==0.9.5"
+oauth2client = "==4.1.2"
+spotipy = "==2.4.4"
+Django = "==1.11.11"
+PyMySQL = "==0.7.11"
+
+[requires]
+python_version = "3.6"
