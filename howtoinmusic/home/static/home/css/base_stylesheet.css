@@ -1,0 +1,263 @@
+/*=Bootstrap override
+------------------------------------------------------------*/
+
+
+
+
+/*=Main css code
+------------------------------------------------------------*/
+
+html, body {
+	height: 100%;
+	margin-left: 1px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #2b3034;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+	font-style: bold;
+}
+
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p, ol {
+	line-height: 200%;
+}
+
+strong {
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #fffff3;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+/*=Font color (white/red)
+------------------------------------------------------------*/
+.white {
+
+}
+
+.red {
+	color:#fb4b00;
+}
+
+.hot_topic_carusel {
+	padding: 10px 0px 30px 0px;
+}
+
+/*=Logo
+------------------------------------------------------------*/
+
+.site_logo h1 {
+	font-size: 2.8em;
+	font-weight: bold;
+	letter-spacing: -4px;
+	text-transform: lowercase;
+	margin: 38px 0 28px 0;
+}
+.site_logo h1 a {
+	color:#FFF;
+	text-decoration: none;
+}
+.site_logo h1 a span{
+	color:#fb4b00;
+}
+
+/*=Content
+------------------------------------------------------------*/
+#content {
+	margin: 0;
+	padding: 20px;
+	background: #3e464a /* url(../images/contenttop.jpg) no-repeat top center*/;
+}
+
+.title {
+	font-size: 2.2em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding: 0px 20px 0px 20px;
+
+}
+
+#content span {
+	margin: 0;
+	float: left;
+}
+
+#content .menu {
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 33px;
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+
+#comments {
+	padding: 20px;
+}
+
+
+h2#comments-title, h3#reply-title {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#comments ol, #comments ul {
+	margin: 40px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+#comments li {
+	margin: 0;
+	padding: 20px 0;
+	clear: both;
+	text-align: justify-left;
+	background: url(../images/postbg.jpg) repeat-x bottom left;
+}
+#comments .avatar {
+	margin: 0 20px 20px 0px;
+	padding: 5px;	
+	width: 66px;
+	height: 66px;
+	float: left;
+	border: 1px solid #fb4b00;
+}
+#comments .author {
+	font-size: 20px;
+	margin-right: 6px;
+}
+#comments .author a {
+	text-decoration: none;
+}
+#comments .author a:hover {
+	text-decoration: underline;
+}
+#comments .social {
+	margin: 0 0 0 5px;
+}
+#comments .time {
+	float: right;
+	margin-right: 20px;
+	font-size: 16px;
+	color: #fb4b00;
+}
+
+#comments .children{
+
+}
+#comments .children li{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: none;
+}
+
+#comments .comment-body {
+	text-align: justify;
+	padding: 5px 20px 0px 20px;
+	font-size: 16px;
+}
+
+
+#comments .navigation {
+	padding: 0 0 18px 0;
+}
+
+.pagination a {
+}
+
+.nopassword, .nocomments {
+	display: none;
+}
+
+#comments .pingback {
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
+}
+
+.commentlist li.comment+li.pingback {
+	margin-top: -6px;
+}
+
+#comments .pingback p {
+	color: #888;
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+
+#comments .pingback .url {
+	font-size: 13px;
+	font-style: italic;
+}
+
+#comments .pingback .url {
+	font-size: 13px;
+	font-style: italic;
+}
+
+/* Comments form */
+input[type=submit] {
+	color: #333;
+}
+
+/*.article_main {
+	height: 100%;
+	margin: 0;
+	padding: 1em;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
+
+.article_main {
+    position: relative;
+    overflow: hidden;
+}
+
+.article_main h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+} 
+.article_main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+

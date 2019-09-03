@@ -1,0 +1,39 @@
+{% extends "home/base_template.html" %}
+
+	{% block content %}
+
+	<!-- Layout Home | The grid layout for the block content for the home page -->
+		
+		<div class="container-fluid">
+			<!-- Carusel start page -->
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<h3>featured<span class="red">topics</span></h3>
+					{% include "home/includes/hot_topic_carusel.html" %}
+				</div>
+				<div class="col-12 col-lg-4">
+					<h3>top<span class="red">views</span></h3>
+				</div>				
+			</div>
+			
+			<div class="row">
+				<div class="col" style="min-height: 30px">
+			
+				</div>
+			</div>
+			<!-- Welcome message -->
+			<div class="row">
+			
+
+				<div class="col-lg-6">
+					{% include "home/includes/welcome_message.html" %}
+				</div>
+
+			</div>
+
+			<!-- Main topics suggested? -->
+			<div class="row">
+				
+			</div>
+    	</div>
+	{% endblock content %}
