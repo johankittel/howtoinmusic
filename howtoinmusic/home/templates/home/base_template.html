@@ -40,33 +40,8 @@
 
 	<!-- Modal removed until further development -->
 
-	<nav class="navbar sticky-top navbar-dark" style="background-color: #2b3034; opacity: 0.9">
-		
-			<!-- Logo -->
-			<div class="site_logo">
-				<h1><a href="#" title="home" rel="home">how<span>to</span>in<span>music</span></a></h1>
-			</div>
-
-			<!-- Search button -->
-			<!-- <span class="input-group-btn">
-				<button class="btn btn-secondary" type="button"><img src="{% static 'home/glyphicons/png/glyphicons-28-search.png'%}" color="grey"></button>
-			</span> -->
-
-			<div>
-				{% include "home/includes/dropdown.html" %}
-			</div>
-
-			<!-- Button trigger modal -->
-			<!--
-			<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			-->
-
-			<!-- Search area -->
-			{% include "home/includes/search.html" %}
-
-	</nav>
+	<!-- Nav -->
+	{% include "home/includes/nav/nav_layout.html" %}
 
 	<!--  Dynamic content -->
 	{% block content %}

@@ -1,0 +1,29 @@
+{% block content %}
+    
+	<nav class="navbar sticky-top navbar-dark" style="background-color: #2b3034; opacity: 0.9">
+		
+		<div class="container-fluid">
+
+			<!-- Logo -->
+			<div class="col-md-6 order-md-1 col-sm-8 order-sm-1 col-8">
+				<div class="site_logo">
+					<h1><a href="#" title="home" rel="home">how<span>to</span>in<span>music</span></a></h1>
+				</div>
+			</div>
+
+			<!-- Dropdown button/list  -->
+			<div class="col-md-2 order-md-3 col-sm-2 order-sm-2 col-2">
+				{% include "home/includes/nav/nav_dropdown.html" %}
+			</div>
+
+			<!-- Search bar / button -->
+			<div class="col-md-4 order-md-2 col-sm-6 order-sm-3">
+				{% include "home/includes/search.html" %}
+			</div>
+			
+
+		</div>
+
+	</nav>
+
+{% endblock content %}
