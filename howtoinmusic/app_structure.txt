@@ -1,0 +1,28 @@
+Howtoinmusic site structure
+
+App structure:
+
+
+Howtoinmusic
+	|--howtoinmusic  	# Head app. Controls the overall Django stucture and settings
+	|
+	|*Presenters??
+	|--front_home  		# Base HTML structure of the site. Templates, nav, footer etc.
+	|--front_twitter_search # The Twitter quick search engine
+	|--front_music_views		# Music presenter. By artist, album, track etc.
+	|
+	|*Databases??
+	|--db_music  		# Data structure for the music data from Spotify
+	|--db_video 		# Parsed data from YouTube searches that can match w music data
+	|--db_web 			# Parsed data from web searches that can match music data
+	|
+	|*Connectors - DNR applies well
+	|--connect_spotify		# Connector to search and get data from Spotify's API
+	|--connect_youtube		# Connector to search, get and push data from/to YouTubes's API
+	|--connect_google		# Connector to search, get and push data from/to Google's API
+	|--connect_email		# Connector to search, get and push data from/to e-mail service
+	|--connect_instagram	# Connector to search, get and push data from/to instagram's API
+	|--connect_rest_api		# Connector to search, get and push data from/to REST API
+
+
+
