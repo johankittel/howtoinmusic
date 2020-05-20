@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 djangorestframework = "==3.6.4"
 google-api-python-client = "==1.6.4"
-httplib2 = "==0.10.3"
+httplib2 = "==0.18.0"
 jsonpickle = "==0.9.5"
 oauth2client = "==4.1.2"
 spotipy = "==2.4.4"
