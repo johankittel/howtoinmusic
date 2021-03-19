@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-djangorestframework = "==3.6.4"
+djangorestframework = "==3.11.2"
 google-api-python-client = "==1.6.4"
 httplib2 = "==0.10.3"
 jsonpickle = "==0.9.5"
